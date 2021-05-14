@@ -1,0 +1,100 @@
+2021-05-14 15:56:37   **************************************************  
+2021-05-14 15:56:38   *********   Mail Sender - Task Started    ********  
+2021-05-14 15:56:38   ...  
+2021-05-14 15:56:40   ... Reading Customers  
+2021-05-14 15:57:44   **************************************************  
+2021-05-14 15:57:45   *********   Mail Sender - Task Started    ********  
+2021-05-14 15:57:45   ...  
+2021-05-14 15:57:46   ... Reading Customers  
+2021-05-14 15:57:53  ................ ERROR: System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlConnectionFactory' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.Data.SqlClient.SqlPerformanceCounters' threw an exception. ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section add. (D:\BASIS\Projects\BC_IFX_Mailjet_Sender_2021\BC_IFX_Mailjet_Sender_2021\bin\Debug\BC_IFX_Mailjet_Sender_2021.exe.Config line 7)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   at System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   at System.Diagnostics.DiagnosticsConfiguration.GetConfigSection()
+   at System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   at System.Diagnostics.DiagnosticsConfiguration.get_SwitchSettings()
+   at System.Diagnostics.Switch.InitializeConfigSettings()
+   at System.Diagnostics.Switch.InitializeWithStatus()
+   at System.Diagnostics.Switch.get_SwitchSetting()
+   at System.Data.ProviderBase.DbConnectionPoolCounters..ctor(String categoryName, String categoryHelp)
+   at System.Data.SqlClient.SqlPerformanceCounters..ctor()
+   at System.Data.SqlClient.SqlPerformanceCounters..cctor()
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnectionFactory..cctor()
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection..cctor() 
+2021-05-14 15:58:31   **************************************************  
+2021-05-14 15:58:31   *********   Mail Sender - Task Started    ********  
+2021-05-14 15:58:32   ...  
+2021-05-14 15:58:34   ... Reading Customers  
+2021-05-14 15:58:51  ................ ERROR: System.InvalidOperationException: Failed to read the configuration section for enclave providers. Make sure the section is correctly formatted in your application configuration file. Error Message: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section add. (D:\BASIS\Projects\BC_IFX_Mailjet_Sender_2021\BC_IFX_Mailjet_Sender_2021\bin\Debug\BC_IFX_Mailjet_Sender_2021.exe.Config line 7)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   at System.Data.SqlClient.SqlConnection..cctor()
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection..cctor() 
+2021-05-14 15:58:51  ...... 
+2021-05-14 15:58:51  ********** END ********** 
+2021-05-14 16:00:59   **************************************************  
+2021-05-14 16:01:00   *********   Mail Sender - Task Started    ********  
+2021-05-14 16:01:00   ...  
+2021-05-14 16:01:01   ... Reading Customers  
+2021-05-14 16:03:27   **************************************************  
+2021-05-14 16:03:27   *********   Mail Sender - Task Started    ********  
+2021-05-14 16:03:28   ...  
+2021-05-14 16:03:28   ... Reading Customers  
+2021-05-14 16:03:40  ................ ERROR: System.InvalidOperationException: Failed to read the configuration section for enclave providers. Make sure the section is correctly formatted in your application configuration file. Error Message: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: Configuration system failed to initialize ---> System.Configuration.ConfigurationErrorsException: Unrecognized configuration section add. (D:\BASIS\Projects\BC_IFX_Mailjet_Sender_2021\BC_IFX_Mailjet_Sender_2021\bin\Debug\BC_IFX_Mailjet_Sender_2021.exe.Config line 7)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   at System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ConfigurationManager.PrepareConfigSystem()
+   at System.Data.SqlClient.SqlConnection..cctor()
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection..cctor() 
+2021-05-14 16:05:32   **************************************************  
+2021-05-14 16:05:33   *********   Mail Sender - Task Started    ********  
+2021-05-14 16:05:33   ...  
+2021-05-14 16:05:33   ... Reading Customers  
+2021-05-14 16:06:08  ...... Row # :  
+2021-05-14 16:06:08  ...... Customer_Nm: Alfredo JoseMozenso Caso 
+2021-05-14 16:06:09  ...... Customer_Mail: ncastaneda@basiscons.com 
+2021-05-14 16:08:10   **************************************************  
+2021-05-14 16:08:11   *********   Mail Sender - Task Started    ********  
+2021-05-14 16:08:11   ...  
+2021-05-14 16:08:11   ... Reading Customers  
+2021-05-14 16:08:15  ...... Row # :  
+2021-05-14 16:08:16  ...... Customer_Nm: Alfredo JoseMozenso Caso 
+2021-05-14 16:08:16  ...... Customer_Mail: ncastaneda@basiscons.com 
+2021-05-14 16:09:17   **************************************************  
+2021-05-14 16:09:17   *********   Mail Sender - Task Started    ********  
+2021-05-14 16:09:17   ...  
+2021-05-14 16:09:17   ... Reading Customers  
+2021-05-14 16:09:17  ...... Row # :  
+2021-05-14 16:09:17  ...... Customer_Nm: Alfredo JoseMozenso Caso 
+2021-05-14 16:09:17  ...... Customer_Mail: ncastaneda@basiscons.com 
+2021-05-14 16:09:36  ................ ERROR: Client does not have permission to submit mail to this server. The server response was: 4.7.1 <ncastaneda@basiscons.com>: Relay access denied 
+2021-05-14 16:09:37  ...... 
+2021-05-14 16:09:37  ********** END ********** 
+2021-05-14 16:19:56   **************************************************  
+2021-05-14 16:19:56   *********   Mail Sender - Task Started    ********  
+2021-05-14 16:19:56   ...  
+2021-05-14 16:19:56   ... Reading Customers  
+2021-05-14 16:19:56  ...... Row # :  
+2021-05-14 16:19:56  ...... Customer_Nm: Alfredo JoseMozenso Caso 
+2021-05-14 16:19:56  ...... Customer_Mail: ncastaneda@basiscons.com 
+2021-05-14 16:20:06  ........... Email Enviado. 
+2021-05-14 16:20:06  ...... 
+2021-05-14 16:20:06  ********** END ********** 
